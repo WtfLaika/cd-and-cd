@@ -13,8 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rollup -c -w",
-    "test": "CI=true react-scripts test --passWithNoTests --all ",
+    "build": "rollup -c",
+    "test": "CI=true react-scripts test --passWithNoTests --all",
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },
